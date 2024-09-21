@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:webspark_test/styles/app_text_styles.dart';
 
 class PathPreviewWidget extends StatelessWidget {
   final List<List<String>> grid;
@@ -34,7 +35,7 @@ class PathPreviewWidget extends StatelessWidget {
         const SizedBox(height: 16),
         Text(
           _getPathString(),
-          style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+          style: AppTextStyles.buttonText,
         ),
       ],
     );
